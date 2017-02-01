@@ -18,6 +18,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
 body {
   background: url('/assets/bg.png');
   font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
@@ -33,4 +36,10 @@ body {
   color: #E3E85A;
   font-family: 'bebasregular', sans-serif;
   font-size: 18px;
+}
+
+.pagination {
+  font-family: 'bebasregular', sans-serif;
+  font-size: 12px;
+  background-color: #E3E85A;
 }
