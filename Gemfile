@@ -41,6 +41,7 @@ gem 'rails_12factor', group: :production
 # gem 'debugger', group: [:development, :test]
 
 gem 'bootstrap-sass', '~> 3.3.5.1'
+gem 'simple_form'
 gem 'sprockets', '2.11.0'
 
 # Add kaminari pagination
@@ -48,3 +49,4 @@ gem 'kaminari'
 
 ## Gemfile for Rails 3+, Sinatra, and Merb
 gem 'will_paginate', '~> 3.1.0'
+
