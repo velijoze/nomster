@@ -50,3 +50,4 @@ gem 'kaminari'
 ## Gemfile for Rails 3+, Sinatra, and Merb
 gem 'will_paginate', '~> 3.1.0'
 
+gem 'devise', '>=3.2.4'
