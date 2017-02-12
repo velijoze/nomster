@@ -24,7 +24,10 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-gem 'spring',        group: :development
+group :development do
+  gem 'spring'
+  gem 'pry'  
+end
 
 gem 'rails_12factor', group: :production
 
@@ -37,17 +40,11 @@ gem 'rails_12factor', group: :production
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-# Use debugger
-# gem 'debugger', group: [:development, :test]
-
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'simple_form'
 gem 'sprockets', '2.11.0'
 
 # Add kaminari pagination
 gem 'kaminari'
-
-## Gemfile for Rails 3+, Sinatra, and Merb
-gem 'will_paginate', '~> 3.1.0'
 
 gem 'devise', '>=3.2.4'

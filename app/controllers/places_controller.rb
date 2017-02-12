@@ -2,7 +2,7 @@ class PlacesController < ApplicationController
   before_action :authenticate_user!, only: [:new, :create]
 
 
-  def index 
+  def index
     @places = Place.page(params[:page])
   end
   
@@ -11,6 +11,7 @@ class PlacesController < ApplicationController
   end
 
   def create
+    binding.pry
     current_user.places.create(place_params)
     redirect_to root_path
   end
