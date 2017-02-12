@@ -11,7 +11,6 @@ class PlacesController < ApplicationController
   end
 
   def create
-    binding.pry
     current_user.places.create(place_params)
     redirect_to root_path
   end
