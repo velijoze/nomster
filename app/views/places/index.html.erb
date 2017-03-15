@@ -20,6 +20,10 @@
              </blockquote>
             </div>
         <% end %>
+
+        <% if place.photos.present? %>
+            <%= image_tag(place.photos.last.picture, class: 'img-responsive') %>
+        <% end %>
     </div>
 
 <% end %>
