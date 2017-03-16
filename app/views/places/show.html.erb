@@ -121,7 +121,7 @@
 
 <% @place.photos.each do |photo| %>
   <div class="col-xs-12 col-sm-6">
-      <%= image_tag photo.picture, class: 'img-fluid' %>
+      <%= image_tag photo.picture, size: "800x600", class: 'img-fluid' %>
       <small><%= photo.caption %></small>
   </div>
 <% end %>
